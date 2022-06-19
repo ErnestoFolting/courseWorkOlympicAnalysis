@@ -28,7 +28,7 @@ def toInt(dataset,columns):
 #Remove errors in country names
 def clean_errors(dataset):
     dataset.replace('-\d*','',regex=True, inplace = True)
-    dataset[dataset["ID"] == 705]
+    print(dataset[dataset["ID"] == 705])
 
 #Fix population dataset
 def pop_fix(Pop):
