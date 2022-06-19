@@ -2,3 +2,7 @@
 check1.csv
 
 check_r.csv
+
+*.docx
+
+*.tmp

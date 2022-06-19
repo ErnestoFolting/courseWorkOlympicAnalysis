@@ -15,7 +15,7 @@ def read_dataset(path, separ, en):
 #Info and head output
 def info_head(dataset, n):
     dataset.info()
-    dataset.head(n)
+    print(dataset.head(n))
 
 #Drap column list in dataset
 def drop_columns(dataset, columns):
